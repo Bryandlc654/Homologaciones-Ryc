@@ -10,7 +10,6 @@ import WhyCards from './Components/Why_card'
 import Testimonials from './Components/Testimonials'
 import Promo from './Components/Promo'
 import Faqs from './Components/Faqs'
-import Contact from './Components/Contact'
 import Footer from './Components/Footer'
 import Companies_slide from './Components/Companies_slide'
 
@@ -23,8 +22,8 @@ function App() {
       <main>
         <Companies></Companies>
         <Solutions></Solutions>
-        <Info></Info>
         <Certificates></Certificates>
+        <Info></Info>
         <Companies_slide></Companies_slide>
         <Benefits></Benefits>
         <WhyCards></WhyCards>
@@ -32,7 +31,6 @@ function App() {
         <Testimonials></Testimonials>
         <Promo></Promo>
         <Faqs></Faqs>
-        <Contact></Contact>
       </main>
       <Footer></Footer>
     </>

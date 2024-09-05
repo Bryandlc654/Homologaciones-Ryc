@@ -25,7 +25,7 @@ const Solutions = () => {
                         <li className="solutions__item">Elaboración de documentos necesarios.</li>
                         <li className="solutions__item">Soporte y elaboración de evidencias.</li>
                         <li className="solutions__item">
-                            compañamiento al afrontar la auditoria.
+                            Acompañamiento al afrontar la auditoria.
                         </li>
                     </ul>
                     <p className="solutions__paragraph paragraph">

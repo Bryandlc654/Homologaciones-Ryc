@@ -1,4 +1,8 @@
-import Client1 from "../assets/img/imagen-2.webp"
+import Test1 from "../assets/img/testimonio-1.webp"
+import Test2 from "../assets/img/testimonio-2.webp"
+import Test3 from "../assets/img/testimonio-3.webp"
+import Test4 from "../assets/img/testimonio-4.webp"
+import Test5 from "../assets/img/testimonio-5.webp"
 import { useInView } from 'react-intersection-observer';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -34,7 +38,7 @@ const Testimonials = () => {
                         slideShadows: true,
                     }}
                     autoplay={{
-                        delay: 2500,
+                        delay: 4000,
                         disableOnInteraction: false,
                     }}
                     navigation={true}
@@ -42,121 +46,21 @@ const Testimonials = () => {
                     className="mySwiper testimonies__group"
                 >
                     <SwiperSlide className="testimony">
-                        <svg
-                            className="testimony__quote"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                        >
-                            <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
-                        </svg>
-                        <p className="testimony__paragraph paragraph">
-                            Lorem ipsum dolor sit amet consectetur. Eleifend fermentum nulla aliquam
-                            nisl ut enim.{" "}
-                        </p>
-                        <div className="testimony__user">
-                            <div className="testimony__image">
-                                <img
-                                    src={Client1}
-                                    alt="Foto de perfil del Usuario Lorem Ipsum"
-                                    loading="lazy"
-                                />
-                            </div>
-                            <div className="testimony__data">
-                                <p className="testimony__name">Lorem Ipsum</p>
-                                <p className="testimony__company">Empresa</p>
-                            </div>
-                        </div>
+                        <img src={Test1} alt="" />
                     </SwiperSlide>
                     <SwiperSlide className="testimony">
-                        <svg
-                            className="testimony__quote"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                        >
-                            <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
-                        </svg>
-                        <p className="testimony__paragraph paragraph">
-                            Lorem ipsum dolor sit amet consectetur. Eleifend fermentum nulla aliquam
-                            nisl ut enim.{" "}
-                        </p>
-                        <div className="testimony__user">
-                            <div className="testimony__image">
-                                <img
-                                    src={Client1}
-                                    alt="Foto de perfil del Usuario Lorem Ipsum"
-                                    loading="lazy"
-                                />
-                            </div>
-                            <div className="testimony__data">
-                                <p className="testimony__name">Lorem Ipsum</p>
-                                <p className="testimony__company">Empresa</p>
-                            </div>
-                        </div>
+                        <img src={Test2} alt="" />
                     </SwiperSlide>
                     <SwiperSlide className="testimony">
-                        <svg
-                            className="testimony__quote"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                        >
-                            <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
-                        </svg>
-                        <p className="testimony__paragraph paragraph">
-                            Lorem ipsum dolor sit amet consectetur. Eleifend fermentum nulla aliquam
-                            nisl ut enim.{" "}
-                        </p>
-                        <div className="testimony__user">
-                            <div className="testimony__image">
-                                <img
-                                    src={Client1}
-                                    alt="Foto de perfil del Usuario Lorem Ipsum"
-                                    loading="lazy"
-                                />
-                            </div>
-                            <div className="testimony__data">
-                                <p className="testimony__name">Lorem Ipsum</p>
-                                <p className="testimony__company">Empresa</p>
-                            </div>
-                        </div>
+                        <img src={Test3} alt="" />
                     </SwiperSlide>
                     <SwiperSlide className="testimony">
-                        <svg
-                            className="testimony__quote"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={16}
-                            height={16}
-                            fill="currentColor"
-                            viewBox="0 0 16 16"
-                        >
-                            <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
-                        </svg>
-                        <p className="testimony__paragraph paragraph">
-                            Lorem ipsum dolor sit amet consectetur. Eleifend fermentum nulla aliquam
-                            nisl ut enim.{" "}
-                        </p>
-                        <div className="testimony__user">
-                            <div className="testimony__image">
-                                <img
-                                    src={Client1}
-                                    alt="Foto de perfil del Usuario Lorem Ipsum"
-                                    loading="lazy"
-                                />
-                            </div>
-                            <div className="testimony__data">
-                                <p className="testimony__name">Lorem Ipsum</p>
-                                <p className="testimony__company">Empresa</p>
-                            </div>
-                        </div>
+                        <img src={Test4} alt="" />
                     </SwiperSlide>
+                    <SwiperSlide className="testimony">
+                        <img src={Test5} alt="" />
+                    </SwiperSlide>
+
                 </Swiper>
             </section>
 
