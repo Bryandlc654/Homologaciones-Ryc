@@ -37,7 +37,7 @@ const Promo = () => {
                     <a
                         className={`promo__cta cta hidden ${PromoMeInView ? 'fade-in-right' : 'fade-in'}`}
                         ref={PromoMeRef}
-                        href="https://wa.link/2kktk3"
+                        href="https://wa.link/b0874f"
                         target="_blank"
                         rel="noopener noreferrer"
                         title="WhatsApp de R&C Consultiva Perú"

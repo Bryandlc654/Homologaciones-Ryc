@@ -39,7 +39,7 @@ const Header = () => {
                 </a>
                 <a
                     className="navbar__cta cta heartbeat"
-                    href="https://wa.link/2kktk3"
+                    href="https://wa.link/b0874f"
                     rel="noopener noreferrer"
                     target="_blank"
                     title="WhatsApp de R&C Consultiva Perú"
@@ -81,7 +81,7 @@ const Header = () => {
                             <div className="hero__buttons-container">
                                 <a
                                     className="hero__cta cta pulsate"
-                                    href="https://wa.link/2kktk3"
+                                    href="https://wa.link/b0874f"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     title="WhatsApp de R&C Consultiva Perú"

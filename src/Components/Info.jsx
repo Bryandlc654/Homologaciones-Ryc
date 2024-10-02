@@ -93,7 +93,7 @@ const Info = () => {
                         </div>
                         <p className="info-card__name">30</p>
                         <p className="info-card__paragraph">
-                            Días de Promedio <br /> de Certificación
+                            Días Promedio <br /> de Certificación
                         </p>
                     </article>
                 </div>

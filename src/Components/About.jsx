@@ -58,7 +58,7 @@ const About = () => {
                         </div>
                         <a
                             className="cta about__cta pulsate"
-                            href="https://wa.link/2kktk3"
+                            href="https://wa.link/b0874f"
                             target="_blank"
                             rel="noopener noreferrer"
                             title="WhatsApp de R&C Consultiva Perú"
