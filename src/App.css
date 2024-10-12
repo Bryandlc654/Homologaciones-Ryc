@@ -2105,3 +2105,8 @@ textarea {
 .testimony img{
   margin: 0 auto;
 }
+
+
+.amo-button-holder{
+  z-index:100!important;
+}

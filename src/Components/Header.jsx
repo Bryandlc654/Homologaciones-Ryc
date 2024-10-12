@@ -14,7 +14,7 @@ const Header = () => {
     const [scrolled, setScrolled] = useState(false);
     const handleScroll = () => {
         const scrollTop = window.scrollY;
-        if (scrollTop > 40) { 
+        if (scrollTop > 40) {
             setScrolled(true);
         } else {
             setScrolled(false);
@@ -67,15 +67,13 @@ const Header = () => {
                         className={`hero__texts hidden ${Secc1MeInView ? 'fade-in-left ' : 'fade-in'}`}
                         ref={Secc1MeRef}
                     >
-                        <p className="hero__guide guide">¿Te solicitaron homologarte?</p>
+                        <p className="hero__guide guide">¿Te pidieron homologarte?</p>
                         <h1 className="hero__title title">
-                            Somos especialistas en{" "}
-                            <span className="resalt">Homologación de Proveedores</span>
+                            Somos expertos en{" "}
+                            <span className="resalt">Homologaciones</span>
                         </h1>
                         <p className="hero__paragraph paragraph">
-                            Con más de 4 años de experiencia en el mercado peruano, te ofrecemos la
-                            gestión completa de tu homologación y estamos contigo hasta la entrega
-                            de tu certificación aprobada.
+                            Con más de 5 años de experiencia en el mercado peruano, somos especialistas en identificar y superar debilidades para asegurar la satisfacción de nuestros clientes.
                         </p>
                         <div className="hero__buttons">
                             <div className="hero__buttons-container">
